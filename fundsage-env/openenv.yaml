@@ -1,0 +1,14 @@
+name: fundsage-env
+version: "1.0"
+description: "FundSage AI - mutual fund recommendation RL environment"
+entry_point: app.env:FundSageEnv
+tasks:
+  - id: easy_risk_match
+    difficulty: easy
+    grader: graders.task1:grade_task_1
+  - id: balanced_portfolio
+    difficulty: medium
+    grader: graders.task2:grade_task_2
+  - id: high_return_optimized
+    difficulty: hard
+    grader: graders.task3:grade_task_3
