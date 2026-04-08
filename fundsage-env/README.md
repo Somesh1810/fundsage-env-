@@ -1,3 +1,12 @@
+---
+title: FundSage OpenEnv
+emoji: 📈
+colorFrom: green
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 # FundSage OpenEnv
 
 Mutual fund portfolio recommendation RL environment.
